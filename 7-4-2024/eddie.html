@@ -1,0 +1,66 @@
+<div id="top-left">
+  <div id="circle"></div>
+  <div id="bite"></div>
+</div>
+<div id="bottom-right">
+  <div id="bottom-right-bite">
+  <div id="bottom-right-circle">
+</div>
+<style>
+  body {
+    background: #4F77FF;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  div#top-left {
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    align-self: flex-start;
+  }
+  div#circle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+  }
+  div#bite {
+    width: 150px;
+    height: 150px;
+    background: #4F77FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  div#bottom-right {
+    border: 2px solid red;
+    align-self: flex-end;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  div#bottom-right-bite {
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+  }
+  div#bottom-right-circle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+  }
+</style>
